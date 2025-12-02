@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-export API_HOST=https://api.konik.ai
-export ATHENA_HOST=wss://athena.konik.ai
+#export API_HOST=https://api.konik.ai
+#export ATHENA_HOST=wss://athena.konik.ai
 # Any other custom launch options here
 set -euo pipefail
 IFS=$'\n\t'
