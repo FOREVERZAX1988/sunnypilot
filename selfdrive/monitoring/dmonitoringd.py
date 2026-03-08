@@ -13,10 +13,20 @@ def dmonitoringd_thread():
   sm = messaging.SubMaster(['driverStateV2', 'liveCalibration', 'carState', 'selfdriveState', 'modelV2',
                             'carControl'], poll='driverStateV2')
 
+  # 修复1：给分心检测等级加容错处理（兼容字符串/数字参数）
+  def get_distraction_level():
+    level = params.get("DistractionDetectionLevel") or "2"  # 默认值改为2
+    # 兼容旧版本数字值和新版本字符串值
+    level_map = {"lenient": 1, "moderate": 2, "strict": 3}
+    try:
+      return int(level)  # 优先按数字解析
+    except ValueError:
+      return level_map.get(level.lower(), 2)  # 默认返回2（适中）
+
   DM = DriverMonitoring(
     rhd_saved=params.get_bool("IsRhdDetected"),
     always_on=params.get_bool("AlwaysOnDM"),
-    distraction_detection_level=int(params.get("DistractionDetectionLevel") or 1)
+    distraction_detection_level=get_distraction_level()  # 调用容错函数
   )
   demo_mode=False
 
@@ -47,7 +57,8 @@ def dmonitoringd_thread():
     if sm['driverStateV2'].frameId % 40 == 1:
       DM.always_on = params.get_bool("AlwaysOnDM")
       demo_mode = params.get_bool("IsDriverViewEnabled")
-      DM.distraction_detection_level = int(params.get("DistractionDetectionLevel") or 1)
+      # 修复2：这里也用容错函数获取等级
+      DM.distraction_detection_level = get_distraction_level()
 
     # save rhd virtual toggle every 5 mins
     if (sm['driverStateV2'].frameId % 6000 == 0 and not demo_mode and
