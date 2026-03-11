@@ -93,7 +93,7 @@ def calibration_incomplete_alert(CP: car.CarParams, CS: car.CarState, sm: messag
   first_word = tr('Recalibrating') if sm['liveCalibration'].calStatus == log.LiveCalibrationData.Status.recalibrating else tr('Calibrating')
   return Alert(
     tr(f"{first_word}: {sm['liveCalibration'].calPerc:.0f}%"),
-    tr(f"Drive Above {get_display_speed(MIN_SPEED_FILTER, metric)}"),
+    tr("Drive Above") + f" {get_display_speed(MIN_SPEED_FILTER, metric)}",
     AlertStatus.normal, AlertSize.mid,
     Priority.LOWEST, VisualAlert.none, AudibleAlert.none, .2)
 

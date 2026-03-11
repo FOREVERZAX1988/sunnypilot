@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 23:58+0800\n"
-"PO-Revision-Date: 2026-03-06 00:01+0800\n"
+"POT-Creation-Date: 2026-03-11 13:25+0800\n"
+"PO-Revision-Date: 2026-03-11 13:28+0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: chs\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.8\n"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:220
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:218
 msgid " (Default)"
 msgstr " (默认)"
 
@@ -216,7 +216,7 @@ msgid ""
 "engaged."
 msgstr "在openpilot启用状态下,允许驾驶员进行有限的转向输入操作."
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:219
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:217
 msgid "Always On"
 msgstr "始终开启"
 
@@ -239,7 +239,7 @@ msgstr "可在非发布分支上测试 sunnypilot 纵向控制的alpha版本及�
 msgid "Any fast phone or laptop charger should be fine."
 msgstr "任何快充手机或笔记本充电器均可使用."
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:58
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:57
 msgid ""
 "Apply a custom timeout for settings UI.<br>This is the time after which "
 "settings UI closes automatically if user is not interacting with the screen."
@@ -255,11 +255,11 @@ msgstr "确定要备份当前的sunnypilot设置吗?"
 msgid "Are you sure you want to delete ALL driving data?"
 msgstr "确定删除所有行驶数据?"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:209
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:207
 msgid "Are you sure you want to enter Always Offroad mode?"
 msgstr "你确定要进入全地形非行驶模式吗?"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:208
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:206
 msgid "Are you sure you want to exit Always Offroad mode?"
 msgstr "你确定要退出全地形非行驶模式吗?"
 
@@ -271,7 +271,7 @@ msgstr "确定要关机吗?"
 msgid "Are you sure you want to reboot?"
 msgstr "确定要重启吗?"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:197
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:195
 msgid ""
 "Are you sure you want to reset all sunnypilot settings to default? Once the "
 "settings are reset, there is no going back."
@@ -286,7 +286,7 @@ msgid ""
 "Are you sure you want to restore the last backed up sunnypilot settings?"
 msgstr "确定要恢复上一次备份的sunnypilot设置吗?"
 
-#: selfdrive/ui/layouts/settings/software.py:175
+#: selfdrive/ui/layouts/settings/software.py:174
 msgid "Are you sure you want to uninstall?"
 msgstr "确定要卸载吗?"
 
@@ -300,11 +300,11 @@ msgid ""
 "limit when operating the +/- buttons."
 msgstr "操作 +/- 按键时,系统将根据当前道路限速,自动调整车辆巡航速度."
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:81
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:80
 msgid "Auto (Dark)"
 msgstr "自动（深色）"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:78
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:77
 msgid "Auto (Default)"
 msgstr "自动（默认）"
 
@@ -396,14 +396,14 @@ msgid "CAN Bus Disconnected: Likely Faulty Cable"
 msgstr "CAN总线断开：可能是线缆故障"
 
 #: selfdrive/ui/layouts/settings/device.py:69
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:133
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:136
 msgid "CHANGE"
 msgstr "更改"
 
 #: selfdrive/ui/layouts/settings/software.py:60
-#: selfdrive/ui/layouts/settings/software.py:119
-#: selfdrive/ui/layouts/settings/software.py:130
-#: selfdrive/ui/layouts/settings/software.py:159
+#: selfdrive/ui/layouts/settings/software.py:118
+#: selfdrive/ui/layouts/settings/software.py:129
+#: selfdrive/ui/layouts/settings/software.py:158
 #: selfdrive/ui/sunnypilot/layouts/settings/osm.py:52
 msgid "CHECK"
 msgstr "检查"
@@ -416,8 +416,8 @@ msgstr "安稳模式已开启"
 msgid "CLEAR"
 msgstr "清除"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:123
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:161
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:126
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:160
 msgid "COMMA"
 msgstr "COMMA"
 
@@ -527,7 +527,7 @@ msgid "Cellular Metered"
 msgstr "蜂窝计量"
 
 #: selfdrive/ui/layouts/settings/device.py:69
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:133
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:136
 msgid "Change Language"
 msgstr "更改语言"
 
@@ -589,9 +589,9 @@ msgstr "综合模式：综合使用车辆与 OpenStreetMap 提供的限速数据
 msgid "Communication Issue Between Processes"
 msgstr "进程间通信问题"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:164
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:193
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:215
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:163
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:191
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:213
 #: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:99
 msgid "Confirm"
 msgstr "确认"
@@ -609,7 +609,7 @@ msgstr "控制项不匹配"
 msgid "Controls Mismatch: Lateral"
 msgstr "控制模式不匹配：横向"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:177
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:175
 msgid "Controls state of the device after boot/sleep."
 msgstr "控制设备启动/休眠后的状态."
 
@@ -637,7 +637,7 @@ msgstr "巡航系统故障：请重启车辆以启用巡航功能"
 msgid "Cruise Is Off"
 msgstr "巡航已关闭"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:119
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:121
 msgid "Current API Server"
 msgstr "当前服务器"
 
@@ -683,7 +683,7 @@ msgstr "删除"
 msgid "DISENGAGE IMMEDIATELY"
 msgstr "立即解除控制"
 
-#: selfdrive/ui/layouts/settings/software.py:122
+#: selfdrive/ui/layouts/settings/software.py:121
 msgid "DOWNLOAD"
 msgstr "下载"
 
@@ -712,8 +712,8 @@ msgstr "拒绝"
 msgid "Decline, uninstall sunnypilot"
 msgstr "拒绝并卸载sunnypilot"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:78
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:64
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:79
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:63
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:144
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:154
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:167
@@ -726,7 +726,7 @@ msgstr "默认"
 msgid "Default Model"
 msgstr "默认模型"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:175
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:173
 msgid "Default: Device will boot/wake-up normally & will be ready to engage."
 msgstr "默认状态：设备将正常启动/唤醒,且随时可进入工作状态."
 
@@ -772,7 +772,7 @@ msgstr "检测到设备重新安装：正在重新校准"
 msgid "Device must be registered with the comma.ai backend to pair"
 msgstr "设备需先在comma.ai后台完成注册方可进行配对"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:59
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:60
 msgid ""
 "Device will automatically shutdown after set time once the engine is turned "
 "off.\n"
@@ -808,7 +808,7 @@ msgstr "退出功能"
 msgid "Disengage on Accelerator Pedal"
 msgstr "踩下加速踏板时脱离"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:204
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:202
 msgid "Disengage to Enter Always Offroad Mode"
 msgstr "退出辅助功能以进入始终非行驶模式"
 
@@ -897,7 +897,7 @@ msgid "Does it matter which software I run?"
 msgstr "运行的软件版本有影响吗?"
 
 #: selfdrive/ui/layouts/settings/device.py:60
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:115
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:116
 #: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:339
 msgid "Dongle ID"
 msgstr "Dongle ID"
@@ -923,6 +923,10 @@ msgstr "地图下载中"
 msgid "Downloading Maps..."
 msgstr "地图下载中..."
 
+#: selfdrive/selfdrived/events.py:96
+msgid "Drive Above"
+msgstr "行驶车速超过"
+
 #: selfdrive/selfdrived/events.py:838
 msgid "Drive to Calibrate"
 msgstr "行驶以校准"
@@ -931,7 +935,7 @@ msgstr "行驶以校准"
 msgid "Driver Camera"
 msgstr "车内摄像头"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:86
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:87
 msgid "Driver Camera Preview"
 msgstr "驾驶员摄像头预览"
 
@@ -1015,8 +1019,8 @@ msgstr "启用ADB"
 msgid "Enable Adaptive Cruise to Engage"
 msgstr "启用自适应巡航以激活辅助驾驶"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:50
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:230
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:51
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:228
 msgid "Enable Always Offroad"
 msgstr "启动始终非行驶模式"
 
@@ -1226,7 +1230,7 @@ msgstr "错误：下载无效.请重试."
 msgid "Excessive Actuation"
 msgstr "过度动作"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:230
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:228
 msgid "Exit Always Offroad"
 msgstr "退出始终非行驶模式"
 
@@ -1425,7 +1429,7 @@ msgid "INACTIVE: connect to an unmetered network"
 msgstr "未启用：请连接不限流量网络"
 
 #: selfdrive/ui/layouts/settings/software.py:63
-#: selfdrive/ui/layouts/settings/software.py:148
+#: selfdrive/ui/layouts/settings/software.py:147
 msgid "INSTALL"
 msgstr "安装"
 
@@ -1474,7 +1478,7 @@ msgid ""
 "platform."
 msgstr "智能巡航按键管理功能在当前平台暂不可用."
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:57
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:56
 msgid "Interactivity Timeout"
 msgstr "交互超时时间"
 
@@ -1502,8 +1506,8 @@ msgstr "摇杆模式"
 msgid "KM"
 msgstr "公里"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:123
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:161
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:126
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:160
 msgid "KONIK"
 msgstr "KONIK"
 
@@ -1640,7 +1644,7 @@ msgstr "仅地图：仅使用 OpenStreetMap 的限速数据"
 msgid "Mapd Version"
 msgstr "地图版本"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:58
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:59
 msgid "Max Time Offroad"
 msgstr "最长非行驶模式时长"
 
@@ -1684,8 +1688,8 @@ msgstr "模块化辅助驾驶系统（MADS）"
 
 #: selfdrive/ui/layouts/settings/device.py:60
 #: selfdrive/ui/layouts/settings/device.py:61
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:115
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:117
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:116
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:118
 #: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:213
 msgid "N/A"
 msgstr "无"
@@ -1816,11 +1820,11 @@ msgstr "关闭：禁用限速功能."
 msgid "Offline Only"
 msgstr "仅限离线"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:78
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:79
 msgid "Offroad"
 msgstr "非行驶"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:176
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:174
 msgid "Offroad: Device will be in Always Offroad mode after boot/wake-up."
 msgstr "非行驶模式：设备启动/唤醒后将处于始终非行驶模式."
 
@@ -1830,15 +1834,15 @@ msgstr ""
 "仅在车辆熄火,\n"
 "或始终非行驶状态开启时可用"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:36
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:35
 msgid "Onroad Brightness"
 msgstr "行驶中亮度"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:46
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:45
 msgid "Onroad Brightness Delay"
 msgstr "行驶中亮度延迟"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:101
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:102
 msgid "Onroad Uploads"
 msgstr "行驶中上传"
 
@@ -1985,7 +1989,7 @@ msgstr "转向灯关闭后延迟"
 
 #: selfdrive/ui/layouts/settings/device.py:56
 #: selfdrive/ui/layouts/settings/device.py:185
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:109
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:110
 msgid "Power Off"
 msgstr "关机"
 
@@ -2051,7 +2055,7 @@ msgstr ""
 "快速启动模式需要禁用更新.\n"
 "先在软件面板中启用「禁用更新」功能."
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:85
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:86
 msgid "Quiet Mode"
 msgstr "静音模式"
 
@@ -2099,7 +2103,7 @@ msgstr "实时加速度条形图"
 
 #: selfdrive/ui/layouts/settings/device.py:56
 #: selfdrive/ui/layouts/settings/device.py:173
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:108
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:109
 #: selfdrive/ui/sunnypilot/layouts/settings/software.py:50
 msgid "Reboot"
 msgstr "重启"
@@ -2153,7 +2157,7 @@ msgid "Refresh Model List"
 msgstr "更新模型列表"
 
 #: selfdrive/ui/layouts/settings/device.py:68
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:93
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:94
 msgid "Regulatory"
 msgstr "法规"
 
@@ -2190,7 +2194,7 @@ msgid "Request timed out"
 msgstr "请求超时"
 
 #: selfdrive/ui/layouts/settings/device.py:113
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:198
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:196
 msgid "Reset"
 msgstr "重置"
 
@@ -2199,7 +2203,7 @@ msgstr "重置"
 msgid "Reset Calibration"
 msgstr "重置校准"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:103
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:104
 msgid "Reset Settings"
 msgstr "重置设定"
 
@@ -2298,7 +2302,7 @@ msgstr "正在扫描 Wi‑Fi 网络…"
 msgid "Scanning..."
 msgstr "扫描中..."
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:84
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:83
 msgid "Screen Off"
 msgstr "关闭屏幕"
 
@@ -2331,7 +2335,7 @@ msgstr "选择扭矩控制调校版本"
 msgid "Select a Model"
 msgstr "选择模型"
 
-#: selfdrive/ui/layouts/settings/software.py:205
+#: selfdrive/ui/layouts/settings/software.py:204
 #: selfdrive/ui/sunnypilot/layouts/settings/software.py:84
 msgid "Select a branch"
 msgstr "选择分支"
@@ -2362,11 +2366,11 @@ msgid "Sensor Data Invalid"
 msgstr "传感器数据无效"
 
 #: selfdrive/ui/layouts/settings/device.py:61
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:117
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:118
 msgid "Serial"
 msgstr "序列号"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:122
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:125
 msgid "Server"
 msgstr "服务器"
 
@@ -2608,13 +2612,13 @@ msgstr "手动驻车制动跟车启停（测试版）"
 msgid "Strict"
 msgstr "严格"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:124
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:127
 msgid ""
 "Switch between Konik and Comma servers（Confirming the switch will cause the "
 "service to restart）"
 msgstr "切换konik&Comma服务器(确认切换将重启服务)"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:163
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:162
 #, python-brace-format
 msgid "Switch server to {}?"
 msgstr "切换服务器为 {}?"
@@ -2671,7 +2675,7 @@ msgstr "目标分支"
 msgid "Tethering Password"
 msgstr "网络共享密码"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:192
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:190
 msgid "The reset cannot be undone. You have been warned."
 msgstr "重置操作不可撤销,特此提醒."
 
@@ -2817,7 +2821,7 @@ msgstr "触摸方向盘"
 msgid "Touch Steering Wheel: No Face Detected"
 msgstr "触摸方向盘：未检测到面部"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:95
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:96
 msgid "Training Guide"
 msgstr "培训指南"
 
@@ -2845,7 +2849,7 @@ msgstr "右转中"
 msgid "UI Debug Mode"
 msgstr "界面调试模式"
 
-#: selfdrive/ui/layouts/settings/software.py:82
+#: selfdrive/ui/layouts/settings/software.py:81
 msgid "UNINSTALL"
 msgstr "卸载"
 
@@ -2866,8 +2870,8 @@ msgstr "无法恢复设置,请重试."
 msgid "Unified Engagement Mode (UEM)"
 msgstr "统一启用模式（UEM）"
 
-#: selfdrive/ui/layouts/settings/software.py:82
-#: selfdrive/ui/layouts/settings/software.py:175
+#: selfdrive/ui/layouts/settings/software.py:81
+#: selfdrive/ui/layouts/settings/software.py:174
 msgid "Uninstall"
 msgstr "卸载"
 
@@ -2970,7 +2974,7 @@ msgstr "警告：此分支未经过测试"
 msgid "Waiting to start"
 msgstr "等待开始"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:75
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:76
 msgid "Wake Up Behavior"
 msgstr "唤醒后状态"
 
@@ -3173,7 +3177,7 @@ msgstr "开启sunnylink"
 msgid "failed"
 msgstr "失败"
 
-#: selfdrive/ui/layouts/settings/software.py:118
+#: selfdrive/ui/layouts/settings/software.py:117
 msgid "failed to check for update"
 msgstr "检查更新失败"
 
@@ -3190,7 +3194,7 @@ msgstr "用于“{}”"
 msgid "from cache"
 msgstr "来自缓存"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:219
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:217
 msgid "h"
 msgstr "h"
 
@@ -3220,7 +3224,7 @@ msgstr "locationd永久错误"
 msgid "locationd Temporary Error"
 msgstr "locationd暂时错误"
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:219
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:217
 msgid "m"
 msgstr "m"
 
@@ -3474,16 +3478,16 @@ msgstr "不限流量"
 msgid "up"
 msgstr "上"
 
-#: selfdrive/ui/layouts/settings/software.py:129
+#: selfdrive/ui/layouts/settings/software.py:128
 msgid "up to date, last checked never"
 msgstr "已是最新,最后检查：从未"
 
-#: selfdrive/ui/layouts/settings/software.py:127
+#: selfdrive/ui/layouts/settings/software.py:126
 #, python-brace-format
 msgid "up to date, last checked {}"
 msgstr "已是最新,最后检查：{}"
 
-#: selfdrive/ui/layouts/settings/software.py:121
+#: selfdrive/ui/layouts/settings/software.py:120
 msgid "update available"
 msgstr "有可用更新"
 

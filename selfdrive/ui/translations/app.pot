@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 23:58+0800\n"
+"POT-Creation-Date: 2026-03-11 13:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,10 @@ msgstr ""
 
 #: selfdrive/selfdrived/events.py:93 selfdrive/selfdrived/events.py:910
 msgid "Calibrating"
+msgstr ""
+
+#: selfdrive/selfdrived/events.py:96
+msgid "Drive Above"
 msgstr ""
 
 #: selfdrive/selfdrived/events.py:104
@@ -710,33 +714,33 @@ msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:56
 #: selfdrive/ui/layouts/settings/device.py:173
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:108
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:109
 #: selfdrive/ui/sunnypilot/layouts/settings/software.py:50
 msgid "Reboot"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:56
 #: selfdrive/ui/layouts/settings/device.py:185
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:109
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:110
 msgid "Power Off"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:60
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:115
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:116
 #: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:339
 msgid "Dongle ID"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:60
 #: selfdrive/ui/layouts/settings/device.py:61
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:115
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:117
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:116
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:118
 #: selfdrive/ui/sunnypilot/layouts/settings/sunnylink.py:213
 msgid "N/A"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:61
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:117
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:118
 msgid "Serial"
 msgstr ""
 
@@ -757,7 +761,7 @@ msgid "REVIEW"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:68
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:93
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:94
 msgid "Regulatory"
 msgstr ""
 
@@ -767,12 +771,12 @@ msgid "VIEW"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:69
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:133
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:136
 msgid "Change Language"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:69
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:133
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:136
 msgid "CHANGE"
 msgstr ""
 
@@ -789,7 +793,7 @@ msgid "Are you sure you want to reset calibration?"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:113
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:198
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:196
 msgid "Reset"
 msgstr ""
 
@@ -986,9 +990,9 @@ msgid "Download"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/software.py:60
-#: selfdrive/ui/layouts/settings/software.py:119
-#: selfdrive/ui/layouts/settings/software.py:130
-#: selfdrive/ui/layouts/settings/software.py:159
+#: selfdrive/ui/layouts/settings/software.py:118
+#: selfdrive/ui/layouts/settings/software.py:129
+#: selfdrive/ui/layouts/settings/software.py:158
 #: selfdrive/ui/sunnypilot/layouts/settings/osm.py:52
 msgid "CHECK"
 msgstr ""
@@ -998,7 +1002,7 @@ msgid "Install Update"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/software.py:63
-#: selfdrive/ui/layouts/settings/software.py:148
+#: selfdrive/ui/layouts/settings/software.py:147
 msgid "INSTALL"
 msgstr ""
 
@@ -1017,41 +1021,41 @@ msgstr ""
 msgid "SELECT"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:82
-#: selfdrive/ui/layouts/settings/software.py:175
+#: selfdrive/ui/layouts/settings/software.py:81
+#: selfdrive/ui/layouts/settings/software.py:174
 msgid "Uninstall"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:82
+#: selfdrive/ui/layouts/settings/software.py:81
 msgid "UNINSTALL"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:118
+#: selfdrive/ui/layouts/settings/software.py:117
 msgid "failed to check for update"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:121
+#: selfdrive/ui/layouts/settings/software.py:120
 msgid "update available"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:122
+#: selfdrive/ui/layouts/settings/software.py:121
 msgid "DOWNLOAD"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:127
+#: selfdrive/ui/layouts/settings/software.py:126
 #, python-brace-format
 msgid "up to date, last checked {}"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:129
+#: selfdrive/ui/layouts/settings/software.py:128
 msgid "up to date, last checked never"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:175
+#: selfdrive/ui/layouts/settings/software.py:174
 msgid "Are you sure you want to uninstall?"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:205
+#: selfdrive/ui/layouts/settings/software.py:204
 #: selfdrive/ui/sunnypilot/layouts/settings/software.py:84
 msgid "Select a branch"
 msgstr ""
@@ -1736,28 +1740,28 @@ msgid ""
 "in the Software panel first."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:50
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:230
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:51
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:228
 msgid "Enable Always Offroad"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:58
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:59
 msgid "Max Time Offroad"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:59
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:60
 msgid ""
 "Device will automatically shutdown after set time once the engine is turned "
 "off.\n"
 "(30h is the default)"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:75
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:76
 msgid "Wake Up Behavior"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:78
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:64
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:79
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:63
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:144
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:154
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:167
@@ -1765,147 +1769,147 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:78
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:79
 msgid "Offroad"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:85
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:86
 msgid "Quiet Mode"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:86
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:87
 msgid "Driver Camera Preview"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:95
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:96
 msgid "Training Guide"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:101
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:102
 msgid "Onroad Uploads"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:103
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:104
 msgid "Reset Settings"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:119
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:121
 msgid "Current API Server"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:122
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:125
 msgid "Server"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:123
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:161
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:126
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:160
 msgid "KONIK"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:123
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:161
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:126
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:160
 msgid "COMMA"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:124
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:127
 msgid ""
 "Switch between Konik and Comma servers（Confirming the switch will cause the "
 "service to restart）"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:163
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:162
 #, python-brace-format
 msgid "Switch server to {}?"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:164
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:193
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:215
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:163
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:191
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:213
 #: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:99
 msgid "Confirm"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:175
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:173
 msgid "Default: Device will boot/wake-up normally & will be ready to engage."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:176
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:174
 msgid "Offroad: Device will be in Always Offroad mode after boot/wake-up."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:177
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:175
 msgid "Controls state of the device after boot/sleep."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:192
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:190
 msgid "The reset cannot be undone. You have been warned."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:197
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:195
 msgid ""
 "Are you sure you want to reset all sunnypilot settings to default? Once the "
 "settings are reset, there is no going back."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:204
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:202
 msgid "Disengage to Enter Always Offroad Mode"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:208
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:206
 msgid "Are you sure you want to exit Always Offroad mode?"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:209
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:207
 msgid "Are you sure you want to enter Always Offroad mode?"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:219
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:217
 msgid "Always On"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:219
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:217
 msgid "m"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:219
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:217
 msgid "h"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:220
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:218
 msgid " (Default)"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/device.py:230
+#: selfdrive/ui/sunnypilot/layouts/settings/device.py:228
 msgid "Exit Always Offroad"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:36
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:35
 msgid "Onroad Brightness"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:46
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:45
 msgid "Onroad Brightness Delay"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:57
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:56
 msgid "Interactivity Timeout"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:58
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:57
 msgid ""
 "Apply a custom timeout for settings UI.<br>This is the time after which "
 "settings UI closes automatically if user is not interacting with the screen."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:78
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:77
 msgid "Auto (Default)"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:81
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:80
 msgid "Auto (Dark)"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/display.py:84
+#: selfdrive/ui/sunnypilot/layouts/settings/display.py:83
 msgid "Screen Off"
 msgstr ""
 

@@ -51,8 +51,8 @@ class Alert:
                duration: float,
                creation_delay: float = 0.):
 
-    self.alert_text_1 = tr(alert_text_1)
-    self.alert_text_2 = tr(alert_text_2)
+    self.alert_text_1 = alert_text_1
+    self.alert_text_2 = alert_text_2
     self.alert_status = alert_status
     self.alert_size = alert_size
     self.priority = priority
