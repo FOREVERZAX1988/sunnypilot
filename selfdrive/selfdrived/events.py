@@ -59,15 +59,15 @@ def get_display_speed(speed_ms: float, metric: bool) -> str:
 def soft_disable_alert(alert_text_2: str) -> AlertCallbackType:
   def func(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMaster, metric: bool, soft_disable_time: int, personality) -> Alert:
     if soft_disable_time < int(0.5 / DT_CTRL):
-      return ImmediateDisableAlert(tr(alert_text_2))
-    return SoftDisableAlert(tr(alert_text_2))
+      return ImmediateDisableAlert(alert_text_2)
+    return SoftDisableAlert(alert_text_2)
   return func
 
 def user_soft_disable_alert(alert_text_2: str) -> AlertCallbackType:
   def func(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMaster, metric: bool, soft_disable_time: int, personality) -> Alert:
     if soft_disable_time < int(0.5 / DT_CTRL):
-      return ImmediateDisableAlert(tr(alert_text_2))
-    return UserSoftDisableAlert(tr(alert_text_2))
+      return ImmediateDisableAlert(alert_text_2)
+    return UserSoftDisableAlert(alert_text_2)
   return func
 
 def startup_master_alert(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMaster, metric: bool, soft_disable_time: int, personality) -> Alert:
@@ -116,7 +116,7 @@ def out_of_space_alert(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMas
 def posenet_invalid_alert(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMaster, metric: bool, soft_disable_time: int, personality) -> Alert:
   mdl = sm['modelV2'].velocity.x[0] if len(sm['modelV2'].velocity.x) else math.nan
   err = CS.vEgo - mdl
-  msg = tr(f"Speed Error: {err:.1f} m/s")
+  msg = f"Speed Error: {err:.1f} m/s"
   return NoEntryAlert(tr(msg), alert_text_1=tr("Posenet Speed Invalid"))
 
 

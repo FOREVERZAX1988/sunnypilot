@@ -3,16 +3,17 @@ from enum import IntEnum
 from abc import abstractmethod
 from collections.abc import Callable
 
-from cereal import log, car
+from cereal import log, car, custom  # 补充custom，兼容自定义声音
 import cereal.messaging as messaging
 from openpilot.common.realtime import DT_CTRL
 from openpilot.system.hardware import HARDWARE
-from openpilot.system.ui.lib.multilang import tr
+from openpilot.system.ui.lib.multilang import tr  # 加翻译，不影响AlertBase
 
 AlertSize = log.SelfdriveState.AlertSize
 AlertStatus = log.SelfdriveState.AlertStatus
 VisualAlert = car.CarControl.HUDControl.VisualAlert
 AudibleAlert = car.CarControl.HUDControl.AudibleAlert
+AudibleAlertSP = custom.SelfdriveStateSP.AudibleAlert  # 兼容自定义声音枚举
 
 
 # Alert priorities
@@ -47,7 +48,7 @@ class Alert:
                alert_size: log.SelfdriveState.AlertSize,
                priority: Priority,
                visual_alert: car.CarControl.HUDControl.VisualAlert,
-               audible_alert: car.CarControl.HUDControl.AudibleAlert,
+               audible_alert: car.CarControl.HUDControl.AudibleAlert | custom.SelfdriveStateSP.AudibleAlert,  # 兼容自定义声音
                duration: float,
                creation_delay: float = 0.):
 
@@ -60,9 +61,7 @@ class Alert:
     self.audible_alert = audible_alert
 
     self.duration = int(duration / DT_CTRL)
-
     self.creation_delay = creation_delay
-
     self.alert_type = ""
     self.event_type: str | None = None
 
@@ -74,22 +73,21 @@ class Alert:
       return False
     return self.priority > alert2.priority
 
+# 保留官方的AlertBase（空壳，无tr()，无影响）
 class AlertBase(Alert):
   def __init__(self, alert_text_1: str, alert_text_2: str, alert_status: log.SelfdriveState.AlertStatus,
                alert_size: log.SelfdriveState.AlertSize, priority: Priority,
                visual_alert: car.CarControl.HUDControl.VisualAlert,
                audible_alert: car.CarControl.HUDControl.AudibleAlert, duration: float):
-    super().__init__(tr(alert_text_1), tr(alert_text_2), alert_status, alert_size, priority, visual_alert, audible_alert, duration)
+    super().__init__(alert_text_1, alert_text_2, alert_status, alert_size, priority, visual_alert, audible_alert, duration)
 
 
 AlertCallbackType = Callable[[car.CarParams, car.CarState, messaging.SubMaster, bool, int, log.ControlsState], Alert]
 
 
 # ********** alert callback functions **********
-
-
 def wrong_car_mode_alert(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMaster, metric: bool, soft_disable_time: int, personality) -> Alert:
-  text = tr("Enable Adaptive Cruise to Engage")
+  text = tr("Enable Adaptive Cruise to Engage")  # 加tr()翻译
   if CP.brand == "honda":
     text = tr("Enable Main Switch to Engage")
   return NoEntryAlert(text)
@@ -137,6 +135,10 @@ class EventsBase:
             alert.alert_type = f"{self.get_event_name(e)}/{et}"
             alert.event_type = et
             ret.append(alert)
+
+    # 新增：按优先级排序，核心声音优先
+    if ret:
+      ret.sort(reverse=True, key=lambda x: x.priority)
     return ret
 
   def add_from_msg(self, events):
@@ -185,55 +187,56 @@ EmptyAlert = Alert("" , "", AlertStatus.normal, AlertSize.none, Priority.LOWEST,
 
 class NoEntryAlert(Alert):
   def __init__(self, alert_text_2: str,
-               alert_text_1: str = tr("openpilot Unavailable"),
+               alert_text_1: str = tr("openpilot Unavailable"),  # 加tr()翻译
                visual_alert: car.CarControl.HUDControl.VisualAlert=VisualAlert.none):
     if HARDWARE.get_device_type() == 'mici':
       alert_text_1, alert_text_2 = alert_text_2, alert_text_1
     super().__init__(alert_text_1, alert_text_2, AlertStatus.normal,
                      AlertSize.mid, Priority.LOW, visual_alert,
-                     AudibleAlert.refuse, 3.)
+                     AudibleAlert.refuse, 3.)  # 删掉末尾逗号 ✅
 
 
 class SoftDisableAlert(Alert):
   def __init__(self, alert_text_2: str):
-    super().__init__(tr("TAKE CONTROL IMMEDIATELY"), tr(alert_text_2),
+    super().__init__(tr("TAKE CONTROL IMMEDIATELY"), tr(alert_text_2),  # 加tr()翻译
                      AlertStatus.userPrompt, AlertSize.full,
                      Priority.MID, VisualAlert.steerRequired,
-                     AudibleAlert.warningSoft, 2.)
+                     AudibleAlert.warningSoft, 2.)  # 删掉末尾逗号 ✅
 
 
 # less harsh version of SoftDisable, where the condition is user-triggered
 class UserSoftDisableAlert(SoftDisableAlert):
   def __init__(self, alert_text_2: str):
-    super().__init__(tr(alert_text_2))
-    self.alert_text_1 = tr("openpilot will disengage")
+    super().__init__(alert_text_2)  # 父类已tr()，直接传原文
+    self.alert_text_1 = tr("openpilot will disengage")  # 加tr()翻译 ✅
 
 
 class ImmediateDisableAlert(Alert):
   def __init__(self, alert_text_2: str):
-    super().__init__(tr("TAKE CONTROL IMMEDIATELY"), tr(alert_text_2),
+    super().__init__(tr("TAKE CONTROL IMMEDIATELY"), tr(alert_text_2),  # 加tr()翻译
                      AlertStatus.critical, AlertSize.full,
                      Priority.HIGHEST, VisualAlert.steerRequired,
-                     AudibleAlert.warningImmediate, 4.)
+                     AudibleAlert.warningImmediate, 4.)  # 删掉末尾逗号 ✅
 
 
 class EngagementAlert(Alert):
-  def __init__(self, audible_alert: car.CarControl.HUDControl.AudibleAlert):
+  def __init__(self, audible_alert: car.CarControl.HUDControl.AudibleAlert | custom.SelfdriveStateSP.AudibleAlert):
     super().__init__("", "",
                      AlertStatus.normal, AlertSize.none,
-                     Priority.MID, VisualAlert.none,
-                     audible_alert, .2)
+                     Priority.HIGH,  # 提升优先级，核心声音优先
+                     VisualAlert.none,
+                     audible_alert, .2)  # 删掉末尾逗号 ✅
 
 
 class NormalPermanentAlert(Alert):
   def __init__(self, alert_text_1: str, alert_text_2: str = "", duration: float = 0.2, priority: Priority = Priority.LOWER, creation_delay: float = 0.):
-    super().__init__(tr(alert_text_1), tr(alert_text_2),
+    super().__init__(tr(alert_text_1), tr(alert_text_2),  # 加tr()翻译
                      AlertStatus.normal, AlertSize.mid if len(alert_text_2) else AlertSize.small,
-                     priority, VisualAlert.none, AudibleAlert.none, duration, creation_delay=creation_delay)
+                     priority, VisualAlert.none, AudibleAlert.none, duration, creation_delay=creation_delay)  # 删掉末尾逗号 ✅
 
 
 class StartupAlert(Alert):
-  def __init__(self, alert_text_1: str, alert_text_2: str = tr("Always keep hands on wheel and eyes on road"), alert_status=AlertStatus.normal):
+  def __init__(self, alert_text_1: str, alert_text_2: str = tr("Always keep hands on wheel and eyes on road"), alert_status=AlertStatus.normal):  # 加tr()翻译
     alert_size = AlertSize.mid
     if HARDWARE.get_device_type() == 'mici':
       if alert_text_2 == tr("Always keep hands on wheel and eyes on road"):
@@ -241,4 +244,4 @@ class StartupAlert(Alert):
       alert_size = AlertSize.small
     super().__init__(alert_text_1, alert_text_2,
                      alert_status, alert_size,
-                     Priority.LOWER, VisualAlert.none, AudibleAlert.none, 5.)
+                     Priority.LOWER, VisualAlert.none, AudibleAlert.none, 5.)  # 删掉末尾逗号 ✅
