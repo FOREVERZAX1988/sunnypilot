@@ -143,9 +143,11 @@ class Controls(ControlsExt):
     lat_delay = self.sm["liveDelay"].lateralDelay + LAT_SMOOTH_SECONDS
 
     actuators.curvature = self.desired_curvature
+    # 👇 第1步：调用横向控制器，计算出【转向扭矩 steer】
     steer, steeringAngleDeg, lac_log = self.LaC.update(CC.latActive, CS, self.VM, lp,
                                                        self.steer_limited_by_safety, self.desired_curvature,
                                                        self.calibrated_pose, curvature_limited, lat_delay)
+    # 👇 第2步：把算好的 steer 赋值给 actuators.torque
     actuators.torque = float(steer)
     actuators.steeringAngleDeg = float(steeringAngleDeg)
     # Ensure no NaNs/Infs
