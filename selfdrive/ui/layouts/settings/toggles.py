@@ -215,6 +215,7 @@ class TogglesLayout(Widget):
     self._update_distraction_visibility()
 
   def show_event(self):
+    super().show_event()
     self._scroller.show_event()
     self._update_toggles()
     self._update_distraction_visibility()

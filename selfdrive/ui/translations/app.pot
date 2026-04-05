@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-11 13:25+0800\n"
+"POT-Creation-Date: 2026-04-05 11:31+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Recalibrating"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:93 selfdrive/selfdrived/events.py:910
+#: selfdrive/selfdrived/events.py:93 selfdrive/selfdrived/events.py:915
 msgid "Calibrating"
 msgstr ""
 
@@ -46,23 +46,23 @@ msgstr ""
 msgid "s"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:113 selfdrive/selfdrived/events.py:589
+#: selfdrive/selfdrived/events.py:113 selfdrive/selfdrived/events.py:594
 msgid "Out of Storage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:120 selfdrive/selfdrived/events.py:721
+#: selfdrive/selfdrived/events.py:120 selfdrive/selfdrived/events.py:726
 msgid "Posenet Speed Invalid"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:126 selfdrive/selfdrived/events.py:693
+#: selfdrive/selfdrived/events.py:126 selfdrive/selfdrived/events.py:698
 msgid "Process Not Running"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:132 selfdrive/selfdrived/events.py:677
+#: selfdrive/selfdrived/events.py:132 selfdrive/selfdrived/events.py:682
 msgid "Communication Issue Between Processes"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:138 selfdrive/selfdrived/events.py:454
+#: selfdrive/selfdrived/events.py:138 selfdrive/selfdrived/events.py:459
 msgid "Camera Malfunction"
 msgstr ""
 
@@ -86,12 +86,12 @@ msgstr ""
 msgid "Abnormal tire stiffness"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:163 selfdrive/selfdrived/events.py:487
+#: selfdrive/selfdrived/events.py:163 selfdrive/selfdrived/events.py:492
 msgid "paramsd Temporary Error"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:171 selfdrive/selfdrived/events.py:620
-#: selfdrive/selfdrived/events.py:621
+#: selfdrive/selfdrived/events.py:171 selfdrive/selfdrived/events.py:625
+#: selfdrive/selfdrived/events.py:626
 msgid "System Overheated"
 msgstr ""
 
@@ -103,8 +103,8 @@ msgstr ""
 msgid "High CPU Usage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:184 selfdrive/selfdrived/events.py:710
-#: selfdrive/selfdrived/events.py:711
+#: selfdrive/selfdrived/events.py:184 selfdrive/selfdrived/events.py:715
+#: selfdrive/selfdrived/events.py:716
 msgid "Driving Model Lagging"
 msgstr ""
 
@@ -128,7 +128,7 @@ msgstr ""
 msgid "Disable your car's stock LKAS to engage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:217 selfdrive/selfdrived/events.py:274
+#: selfdrive/selfdrived/events.py:217 selfdrive/selfdrived/events.py:279
 msgid "Invalid LKAS setting"
 msgstr ""
 
@@ -141,439 +141,439 @@ msgstr ""
 msgid "Ensure road ahead is clear"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:241
+#: selfdrive/selfdrived/events.py:246
 msgid "System Initializing"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:245
+#: selfdrive/selfdrived/events.py:250
 msgid "Be ready to take over at any time"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:253 selfdrive/selfdrived/events.py:254
+#: selfdrive/selfdrived/events.py:258 selfdrive/selfdrived/events.py:259
 msgid "Dashcam mode"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:258
+#: selfdrive/selfdrived/events.py:263
 msgid "Dashcam mode for unsupported car"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:262 selfdrive/selfdrived/events.py:268
-#: selfdrive/selfdrived/events.py:285
+#: selfdrive/selfdrived/events.py:267 selfdrive/selfdrived/events.py:273
+#: selfdrive/selfdrived/events.py:290
 msgid "Dashcam Mode"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:263
+#: selfdrive/selfdrived/events.py:268
 msgid "Security Key Not Available"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:286
+#: selfdrive/selfdrived/events.py:291
 msgid "Car Unrecognized"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:292 selfdrive/selfdrived/events.py:301
-#: selfdrive/selfdrived/events.py:314
+#: selfdrive/selfdrived/events.py:297 selfdrive/selfdrived/events.py:306
+#: selfdrive/selfdrived/events.py:319
 msgid "BRAKE!"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:293
+#: selfdrive/selfdrived/events.py:298
 msgid "Emergency Braking: Risk of Collision"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:296
+#: selfdrive/selfdrived/events.py:301
 msgid "AEB: Risk of Collision"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:302 selfdrive/selfdrived/events.py:305
+#: selfdrive/selfdrived/events.py:307 selfdrive/selfdrived/events.py:310
 msgid "Stock AEB: Risk of Collision"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:309
+#: selfdrive/selfdrived/events.py:314
 msgid "Stock LKAS: Lane Departure Detected"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:315
+#: selfdrive/selfdrived/events.py:320
 msgid "Risk of Collision"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:322
+#: selfdrive/selfdrived/events.py:327
 msgid "Lane Departure Detected"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:332 selfdrive/selfdrived/events.py:578
+#: selfdrive/selfdrived/events.py:337 selfdrive/selfdrived/events.py:583
 msgid "Steering Assist Temporarily Unavailable"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:340 selfdrive/selfdrived/events.py:348
-#: selfdrive/selfdrived/events.py:860 selfdrive/selfdrived/events.py:867
+#: selfdrive/selfdrived/events.py:345 selfdrive/selfdrived/events.py:353
+#: selfdrive/selfdrived/events.py:865 selfdrive/selfdrived/events.py:872
 msgid "Pay Attention"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:349 selfdrive/selfdrived/events.py:357
-#: selfdrive/selfdrived/events.py:868
+#: selfdrive/selfdrived/events.py:354 selfdrive/selfdrived/events.py:362
+#: selfdrive/selfdrived/events.py:873
 msgid "Driver Distracted"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:356 selfdrive/selfdrived/events.py:380
+#: selfdrive/selfdrived/events.py:361 selfdrive/selfdrived/events.py:385
 msgid "DISENGAGE IMMEDIATELY"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:364
+#: selfdrive/selfdrived/events.py:369
 msgid "Touch Steering Wheel: No Face Detected"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:372
+#: selfdrive/selfdrived/events.py:377
 msgid "Touch Steering Wheel"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:373 selfdrive/selfdrived/events.py:381
+#: selfdrive/selfdrived/events.py:378 selfdrive/selfdrived/events.py:386
 msgid "Driver Unresponsive"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:388
+#: selfdrive/selfdrived/events.py:393
 msgid "TAKE CONTROL"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:389
+#: selfdrive/selfdrived/events.py:394
 msgid "Resume Driving Manually"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:396
+#: selfdrive/selfdrived/events.py:401
 msgid "Press Resume to Exit Standstill"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:408
+#: selfdrive/selfdrived/events.py:413
 msgid "Steer Left to Start Lane Change Once Safe"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:416
+#: selfdrive/selfdrived/events.py:421
 msgid "Steer Right to Start Lane Change Once Safe"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:424
+#: selfdrive/selfdrived/events.py:429
 msgid "Car Detected in Blindspot"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:432
+#: selfdrive/selfdrived/events.py:437
 msgid "Changing Lanes"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:440 selfdrive/selfdrived/events.py:902
+#: selfdrive/selfdrived/events.py:445 selfdrive/selfdrived/events.py:907
 msgid "Take Control"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:441
+#: selfdrive/selfdrived/events.py:446
 msgid "Turn Exceeds Steering Limit"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:448
+#: selfdrive/selfdrived/events.py:453
 msgid "Fan Malfunction"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:448
+#: selfdrive/selfdrived/events.py:453
 msgid "Likely Hardware Issue"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:455
+#: selfdrive/selfdrived/events.py:460
 msgid "Camera Malfunction: Reboot Your Device"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:459 selfdrive/selfdrived/events.py:460
+#: selfdrive/selfdrived/events.py:464 selfdrive/selfdrived/events.py:465
 msgid "Camera Frame Rate Low"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:459
+#: selfdrive/selfdrived/events.py:464
 msgid "Reboot your Device"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:461
+#: selfdrive/selfdrived/events.py:466
 msgid "Camera Frame Rate Low: Reboot Your Device"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:467 selfdrive/selfdrived/events.py:468
+#: selfdrive/selfdrived/events.py:472 selfdrive/selfdrived/events.py:473
 msgid "locationd Temporary Error"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:472 selfdrive/selfdrived/events.py:473
-#: selfdrive/selfdrived/events.py:474
+#: selfdrive/selfdrived/events.py:477 selfdrive/selfdrived/events.py:478
+#: selfdrive/selfdrived/events.py:479
 msgid "locationd Permanent Error"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:491 selfdrive/selfdrived/events.py:492
-#: selfdrive/selfdrived/events.py:493
+#: selfdrive/selfdrived/events.py:496 selfdrive/selfdrived/events.py:497
+#: selfdrive/selfdrived/events.py:498
 msgid "paramsd Permanent Error"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:512
+#: selfdrive/selfdrived/events.py:517
 msgid "Cancel Pressed"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:517
+#: selfdrive/selfdrived/events.py:522
 msgid "Press Resume to Exit Brake Hold"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:525
+#: selfdrive/selfdrived/events.py:530
 #: sunnypilot/selfdrive/selfdrived/events.py:176
 msgid "Parking Brake Engaged"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:530
+#: selfdrive/selfdrived/events.py:535
 #: sunnypilot/selfdrive/selfdrived/events.py:193
 msgid "Pedal Pressed"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:536
+#: selfdrive/selfdrived/events.py:541
 msgid "Steering Pressed"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:541
+#: selfdrive/selfdrived/events.py:546
 msgid "Release Brake to Engage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:569
+#: selfdrive/selfdrived/events.py:574
 msgid "Press Set to Engage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:574
+#: selfdrive/selfdrived/events.py:579
 msgid "Adaptive Cruise Disabled"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:579
+#: selfdrive/selfdrived/events.py:584
 msgid "Steering Temporarily Unavailable"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:583 selfdrive/selfdrived/events.py:584
+#: selfdrive/selfdrived/events.py:588 selfdrive/selfdrived/events.py:589
 msgid "Vehicle Steering Time Limit"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:598 selfdrive/selfdrived/events.py:602
-#: selfdrive/selfdrived/events.py:603
+#: selfdrive/selfdrived/events.py:603 selfdrive/selfdrived/events.py:607
+#: selfdrive/selfdrived/events.py:608
 msgid "Sensor Data Invalid"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:599
+#: selfdrive/selfdrived/events.py:604
 msgid "Possible Hardware Issue"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:610
+#: selfdrive/selfdrived/events.py:615
 msgid "Distraction Level Too High"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:614 selfdrive/selfdrived/events.py:615
+#: selfdrive/selfdrived/events.py:619 selfdrive/selfdrived/events.py:620
 msgid "Excessive Actuation"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:625 selfdrive/selfdrived/events.py:626
+#: selfdrive/selfdrived/events.py:630 selfdrive/selfdrived/events.py:631
 #: sunnypilot/selfdrive/selfdrived/events.py:137
 msgid "Gear not D"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:636 selfdrive/selfdrived/events.py:637
+#: selfdrive/selfdrived/events.py:641 selfdrive/selfdrived/events.py:642
 msgid "Calibration Invalid: Remount Device & Recalibrate"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:642 selfdrive/selfdrived/events.py:909
+#: selfdrive/selfdrived/events.py:647 selfdrive/selfdrived/events.py:914
 msgid "Calibration Incomplete"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:643
+#: selfdrive/selfdrived/events.py:648
 msgid "Calibration in Progress"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:648
+#: selfdrive/selfdrived/events.py:653
 msgid "Device Remount Detected: Recalibrating"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:649
+#: selfdrive/selfdrived/events.py:654
 msgid "Remount Detected: Recalibrating"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:653 selfdrive/selfdrived/events.py:654
+#: selfdrive/selfdrived/events.py:658 selfdrive/selfdrived/events.py:659
 #: sunnypilot/selfdrive/selfdrived/events.py:158
 msgid "Door Open"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:658 selfdrive/selfdrived/events.py:659
+#: selfdrive/selfdrived/events.py:663 selfdrive/selfdrived/events.py:664
 #: sunnypilot/selfdrive/selfdrived/events.py:167
 msgid "Seatbelt Unlatched"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:663 selfdrive/selfdrived/events.py:664
+#: selfdrive/selfdrived/events.py:668 selfdrive/selfdrived/events.py:669
 msgid "Electronic Stability Control Disabled"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:668 selfdrive/selfdrived/events.py:669
+#: selfdrive/selfdrived/events.py:673 selfdrive/selfdrived/events.py:674
 msgid "Low Battery"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:681 selfdrive/selfdrived/events.py:682
+#: selfdrive/selfdrived/events.py:686 selfdrive/selfdrived/events.py:687
 msgid "Low Communication Rate Between Processes"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:686
+#: selfdrive/selfdrived/events.py:691
 msgid "System Lagging"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:687
+#: selfdrive/selfdrived/events.py:692
 msgid "Selfdrive Process Lagging: Reboot Your Device"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:697 selfdrive/selfdrived/events.py:698
+#: selfdrive/selfdrived/events.py:702 selfdrive/selfdrived/events.py:703
 msgid "Radar Error: Restart the Car"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:702 selfdrive/selfdrived/events.py:703
+#: selfdrive/selfdrived/events.py:707 selfdrive/selfdrived/events.py:708
 msgid "Radar Temporarily Unavailable"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:728 selfdrive/selfdrived/events.py:729
+#: selfdrive/selfdrived/events.py:733 selfdrive/selfdrived/events.py:734
 msgid "Device Fell Off Mount"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:733 selfdrive/selfdrived/events.py:735
+#: selfdrive/selfdrived/events.py:738 selfdrive/selfdrived/events.py:740
 msgid "Low Memory: Reboot Your Device"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:739 selfdrive/selfdrived/events.py:741
+#: selfdrive/selfdrived/events.py:744 selfdrive/selfdrived/events.py:746
 msgid "Cruise Fault: Restart the Car"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:740
+#: selfdrive/selfdrived/events.py:745
 msgid "Cruise Fault: Restart the car to engage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:745 selfdrive/selfdrived/events.py:746
+#: selfdrive/selfdrived/events.py:750 selfdrive/selfdrived/events.py:751
 msgid "Electronic Stability Control Active"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:750 selfdrive/selfdrived/events.py:751
+#: selfdrive/selfdrived/events.py:755 selfdrive/selfdrived/events.py:756
 msgid "Controls Mismatch"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:757 selfdrive/selfdrived/events.py:758
-#: selfdrive/selfdrived/events.py:759
+#: selfdrive/selfdrived/events.py:762 selfdrive/selfdrived/events.py:763
+#: selfdrive/selfdrived/events.py:764
 msgid "USB Error: Reboot Your Device"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:767 selfdrive/selfdrived/events.py:769
-#: selfdrive/selfdrived/events.py:773
+#: selfdrive/selfdrived/events.py:772 selfdrive/selfdrived/events.py:774
+#: selfdrive/selfdrived/events.py:778
 msgid "Unknown Vehicle Variant"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:777
+#: selfdrive/selfdrived/events.py:782
 msgid "CAN Bus Disconnected"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:779
+#: selfdrive/selfdrived/events.py:784
 msgid "CAN Bus Disconnected: Likely Faulty Cable"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:783
+#: selfdrive/selfdrived/events.py:788
 msgid "CAN Bus Disconnected: Check Connections"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:787 selfdrive/selfdrived/events.py:789
+#: selfdrive/selfdrived/events.py:792 selfdrive/selfdrived/events.py:794
 msgid "LKAS Fault: Restart the Car"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:788
+#: selfdrive/selfdrived/events.py:793
 msgid "LKAS Fault: Restart the car to engage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:794
+#: selfdrive/selfdrived/events.py:799
 #: sunnypilot/selfdrive/selfdrived/events.py:145
 msgid ""
 "Reverse\n"
 "Gear"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:798 selfdrive/selfdrived/events.py:799
+#: selfdrive/selfdrived/events.py:803 selfdrive/selfdrived/events.py:804
 #: sunnypilot/selfdrive/selfdrived/events.py:149
 msgid "Reverse Gear"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:805
+#: selfdrive/selfdrived/events.py:810
 msgid "Cruise Is Off"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:813 selfdrive/selfdrived/events.py:814
-#: selfdrive/selfdrived/events.py:815
+#: selfdrive/selfdrived/events.py:818 selfdrive/selfdrived/events.py:819
+#: selfdrive/selfdrived/events.py:820
 msgid "Harness Relay Malfunction"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:814
+#: selfdrive/selfdrived/events.py:819
 msgid "Check Hardware"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:820
+#: selfdrive/selfdrived/events.py:825
 msgid "openpilot Canceled"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:821
+#: selfdrive/selfdrived/events.py:826
 msgid "Speed too low"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:829
+#: selfdrive/selfdrived/events.py:834
 msgid "Speed Too High"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:830
+#: selfdrive/selfdrived/events.py:835
 msgid "Model uncertain at this speed"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:833
+#: selfdrive/selfdrived/events.py:838
 msgid "Slow down to engage"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:837
+#: selfdrive/selfdrived/events.py:842
 msgid "Vehicle Sensors Invalid"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:838 selfdrive/selfdrived/events.py:839
+#: selfdrive/selfdrived/events.py:843 selfdrive/selfdrived/events.py:844
 msgid "Vehicle Sensors Calibrating"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:838
+#: selfdrive/selfdrived/events.py:843
 msgid "Drive to Calibrate"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:847
+#: selfdrive/selfdrived/events.py:852
 msgid "Bookmark Saved"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:874
+#: selfdrive/selfdrived/events.py:879
 msgid "Press Resume"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:881
+#: selfdrive/selfdrived/events.py:886
 msgid "Steer Left"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:882 selfdrive/selfdrived/events.py:889
+#: selfdrive/selfdrived/events.py:887 selfdrive/selfdrived/events.py:894
 msgid "Confirm Lane Change"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:888
+#: selfdrive/selfdrived/events.py:893
 msgid "Steer Right"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:895
+#: selfdrive/selfdrived/events.py:900
 msgid "Car in Blindspot"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:903
+#: selfdrive/selfdrived/events.py:908
 msgid "Turn exceeds limit"
 msgstr ""
 
-#: selfdrive/selfdrived/events.py:914 selfdrive/selfdrived/events.py:918
-#: selfdrive/selfdrived/events.py:919
+#: selfdrive/selfdrived/events.py:919 selfdrive/selfdrived/events.py:923
+#: selfdrive/selfdrived/events.py:924
 msgid "Reverse"
 msgstr ""
 
-#: selfdrive/ui/layouts/home.py:154
+#: selfdrive/ui/layouts/home.py:155
 msgid "UPDATE"
 msgstr ""
 
-#: selfdrive/ui/layouts/home.py:168
+#: selfdrive/ui/layouts/home.py:169
 #, python-brace-format
 msgid "{} ALERT"
 msgid_plural "{} ALERTS"
@@ -609,7 +609,7 @@ msgstr ""
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/lane_change_settings.py:23
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/mads_settings.py:40
 #: selfdrive/ui/sunnypilot/layouts/settings/steering_sub_layouts/torque_settings.py:30
-#: system/ui/widgets/network.py:105
+#: system/ui/widgets/network.py:102
 msgid "Back"
 msgstr ""
 
@@ -658,15 +658,19 @@ msgid "Joystick Debug Mode"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/developer.py:75
+msgid "Lateral Maneuver Mode"
+msgstr ""
+
+#: selfdrive/ui/layouts/settings/developer.py:82
 msgid "sunnypilot Longitudinal Control (Alpha)"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/developer.py:83
+#: selfdrive/ui/layouts/settings/developer.py:90
 msgid "UI Debug Mode"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/developer.py:184
-#: selfdrive/ui/layouts/settings/toggles.py:298
+#: selfdrive/ui/layouts/settings/developer.py:210
+#: selfdrive/ui/layouts/settings/toggles.py:299
 #: selfdrive/ui/sunnypilot/layouts/onboarding.py:29
 #: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/toyota.py:71
 #: selfdrive/ui/sunnypilot/layouts/settings/vehicle/brands/toyota.py:90
@@ -704,7 +708,7 @@ msgid "PAIR"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:52
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:180
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:184
 msgid "Reset Calibration"
 msgstr ""
 
@@ -713,14 +717,14 @@ msgid "RESET"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:56
-#: selfdrive/ui/layouts/settings/device.py:173
+#: selfdrive/ui/layouts/settings/device.py:174
 #: selfdrive/ui/sunnypilot/layouts/settings/device.py:109
 #: selfdrive/ui/sunnypilot/layouts/settings/software.py:50
 msgid "Reboot"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/device.py:56
-#: selfdrive/ui/layouts/settings/device.py:185
+#: selfdrive/ui/layouts/settings/device.py:186
 #: selfdrive/ui/sunnypilot/layouts/settings/device.py:110
 msgid "Power Off"
 msgstr ""
@@ -780,81 +784,81 @@ msgstr ""
 msgid "CHANGE"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:91
+#: selfdrive/ui/layouts/settings/device.py:92
 msgid "Select a language"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:97
+#: selfdrive/ui/layouts/settings/device.py:98
 msgid "Disengage to Reset Calibration"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:113
+#: selfdrive/ui/layouts/settings/device.py:114
 msgid "Are you sure you want to reset calibration?"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:113
+#: selfdrive/ui/layouts/settings/device.py:114
 #: selfdrive/ui/sunnypilot/layouts/settings/device.py:196
 msgid "Reset"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:127
+#: selfdrive/ui/layouts/settings/device.py:128
 #, python-brace-format
 msgid " Your device is pointed {:.1f}° {} and {:.1f}° {}."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:127
+#: selfdrive/ui/layouts/settings/device.py:128
 msgid "down"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:127
+#: selfdrive/ui/layouts/settings/device.py:128
 msgid "up"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:128
+#: selfdrive/ui/layouts/settings/device.py:129
 msgid "left"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:128
+#: selfdrive/ui/layouts/settings/device.py:129
 msgid "right"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:140
+#: selfdrive/ui/layouts/settings/device.py:141
 #, python-brace-format
 msgid "<br><br>Steering lag calibration is {}% complete."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:142
+#: selfdrive/ui/layouts/settings/device.py:143
 msgid "<br><br>Steering lag calibration is complete."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:152
+#: selfdrive/ui/layouts/settings/device.py:153
 #, python-brace-format
 msgid " Steering torque response calibration is {}% complete."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:154
+#: selfdrive/ui/layouts/settings/device.py:155
 msgid " Steering torque response calibration is complete."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:159
+#: selfdrive/ui/layouts/settings/device.py:160
 msgid ""
 "sunnypilot is continuously calibrating, resetting is rarely required. "
 "Resetting calibration will restart sunnypilot if the car is powered on."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:166
+#: selfdrive/ui/layouts/settings/device.py:167
 msgid "Disengage to Reboot"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:173
+#: selfdrive/ui/layouts/settings/device.py:174
 msgid "Are you sure you want to reboot?"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:178
+#: selfdrive/ui/layouts/settings/device.py:179
 msgid "Disengage to Power Off"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/device.py:185
+#: selfdrive/ui/layouts/settings/device.py:186
 msgid "Are you sure you want to power off?"
 msgstr ""
 
@@ -907,32 +911,32 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: selfdrive/ui/layouts/settings/settings.py:59
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:114
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:113
 msgid "Device"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/settings.py:60
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:115
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:114
 msgid "Network"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/settings.py:61
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:118
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:117
 msgid "Toggles"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/settings.py:62
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:119
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:118
 msgid "Software"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/settings.py:63
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:129
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:128
 msgid "Firehose"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/settings.py:64
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:130
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:129
 msgid "Developer"
 msgstr ""
 
@@ -990,9 +994,9 @@ msgid "Download"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/software.py:60
-#: selfdrive/ui/layouts/settings/software.py:118
-#: selfdrive/ui/layouts/settings/software.py:129
-#: selfdrive/ui/layouts/settings/software.py:158
+#: selfdrive/ui/layouts/settings/software.py:119
+#: selfdrive/ui/layouts/settings/software.py:130
+#: selfdrive/ui/layouts/settings/software.py:159
 #: selfdrive/ui/sunnypilot/layouts/settings/osm.py:52
 msgid "CHECK"
 msgstr ""
@@ -1002,7 +1006,7 @@ msgid "Install Update"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/software.py:63
-#: selfdrive/ui/layouts/settings/software.py:147
+#: selfdrive/ui/layouts/settings/software.py:148
 msgid "INSTALL"
 msgstr ""
 
@@ -1022,7 +1026,7 @@ msgid "SELECT"
 msgstr ""
 
 #: selfdrive/ui/layouts/settings/software.py:81
-#: selfdrive/ui/layouts/settings/software.py:174
+#: selfdrive/ui/layouts/settings/software.py:175
 msgid "Uninstall"
 msgstr ""
 
@@ -1030,32 +1034,32 @@ msgstr ""
 msgid "UNINSTALL"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:117
+#: selfdrive/ui/layouts/settings/software.py:118
 msgid "failed to check for update"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:120
+#: selfdrive/ui/layouts/settings/software.py:121
 msgid "update available"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:121
+#: selfdrive/ui/layouts/settings/software.py:122
 msgid "DOWNLOAD"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:126
+#: selfdrive/ui/layouts/settings/software.py:127
 #, python-brace-format
 msgid "up to date, last checked {}"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:128
+#: selfdrive/ui/layouts/settings/software.py:129
 msgid "up to date, last checked never"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:174
+#: selfdrive/ui/layouts/settings/software.py:175
 msgid "Are you sure you want to uninstall?"
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/software.py:204
+#: selfdrive/ui/layouts/settings/software.py:205
 #: selfdrive/ui/sunnypilot/layouts/settings/software.py:84
 msgid "Select a branch"
 msgstr ""
@@ -1190,7 +1194,7 @@ msgstr ""
 msgid "Changing this setting will restart sunnypilot if the car is powered on."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:226
+#: selfdrive/ui/layouts/settings/toggles.py:227
 msgid ""
 "sunnypilot defaults to driving in chill mode. Experimental mode enables "
 "alpha-level features that aren't ready for chill mode. Experimental features "
@@ -1205,23 +1209,23 @@ msgid ""
 "corner."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:249
+#: selfdrive/ui/layouts/settings/toggles.py:250
 msgid ""
 "Experimental mode is currently unavailable on this car since the car's stock "
 "ACC is used for longitudinal control."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:251
+#: selfdrive/ui/layouts/settings/toggles.py:252
 msgid "sunnypilot longitudinal control may come in a future update."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:254
+#: selfdrive/ui/layouts/settings/toggles.py:255
 msgid ""
 "An alpha version of sunnypilot longitudinal control can be tested, along "
 "with Experimental mode, on non-release branches."
 msgstr ""
 
-#: selfdrive/ui/layouts/settings/toggles.py:257
+#: selfdrive/ui/layouts/settings/toggles.py:258
 msgid ""
 "Enable the sunnypilot longitudinal control (alpha) toggle to allow "
 "Experimental mode."
@@ -1293,23 +1297,22 @@ msgstr ""
 msgid "no alerts"
 msgstr ""
 
-#: selfdrive/ui/mici/layouts/onboarding.py:38
-#: selfdrive/ui/mici/onroad/driver_camera_dialog.py:83
+#: selfdrive/ui/mici/layouts/onboarding.py:37
+#: selfdrive/ui/mici/onroad/driver_camera_dialog.py:81
 #: selfdrive/ui/onroad/driver_camera_dialog.py:38
 msgid "camera starting"
 msgstr ""
 
-#: selfdrive/ui/mici/layouts/settings/device.py:164
-#: selfdrive/ui/widgets/setup.py:91
-msgid "Please connect to Wi-Fi to complete initial pairing"
+#: selfdrive/ui/mici/layouts/settings/device.py:159
+msgid "Please connect to Wi-Fi to complete initial pairing."
 msgstr ""
 
-#: selfdrive/ui/mici/layouts/settings/device.py:166
-msgid "Device must be registered with the comma.ai backend to pair"
+#: selfdrive/ui/mici/layouts/settings/device.py:161
+msgid "Device must be registered with the comma.ai backend to pair."
 msgstr ""
 
-#: selfdrive/ui/mici/layouts/settings/device.py:196
-msgid "Please connect to Wi-Fi to update"
+#: selfdrive/ui/mici/layouts/settings/device.py:191
+msgid "Please connect to Wi-Fi to update."
 msgstr ""
 
 #: selfdrive/ui/mici/layouts/settings/firehose.py:26
@@ -1399,8 +1402,8 @@ msgid "Waiting to start"
 msgstr ""
 
 #: selfdrive/ui/onroad/alert_renderer.py:58
-#: sunnypilot/selfdrive/selfdrived/events_base.py:199
-#: sunnypilot/selfdrive/selfdrived/events_base.py:214
+#: sunnypilot/selfdrive/selfdrived/events_base.py:204
+#: sunnypilot/selfdrive/selfdrived/events_base.py:219
 msgid "TAKE CONTROL IMMEDIATELY"
 msgstr ""
 
@@ -1414,7 +1417,7 @@ msgid "Reboot Device"
 msgstr ""
 
 #: selfdrive/ui/sunnypilot/layouts/onboarding.py:23
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:116
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:115
 msgid "sunnylink"
 msgstr ""
 
@@ -1721,9 +1724,9 @@ msgid "Delete"
 msgstr ""
 
 #: selfdrive/ui/sunnypilot/layouts/settings/developer.py:110
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:73
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:75
 #: system/ui/widgets/confirm_dialog.py:24 system/ui/widgets/keyboard.py:83
-#: system/ui/widgets/network.py:333 system/ui/widgets/option_dialog.py:36
+#: system/ui/widgets/network.py:332 system/ui/widgets/option_dialog.py:36
 msgid "Cancel"
 msgstr ""
 
@@ -1929,43 +1932,51 @@ msgstr ""
 msgid "Policy Model"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:62
-msgid "Refresh Model List"
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:61
+msgid "Off-Policy Model"
 msgstr ""
 
 #: selfdrive/ui/sunnypilot/layouts/settings/models.py:62
-msgid "REFRESH"
+msgid "On-Policy Model"
 msgstr ""
 
 #: selfdrive/ui/sunnypilot/layouts/settings/models.py:64
+msgid "Refresh Model List"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:64
+msgid "REFRESH"
+msgstr ""
+
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:66
 msgid "Fetching Latest Models"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:67
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:69
 msgid "Clear Model Cache"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:69
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:71
 msgid "CLEAR"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:73
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:75
 msgid "Cancel Download"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:75
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:77
 msgid "Adjust Lane Turn Speed"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:76
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:78
 msgid "Set the maximum speed for lane turn desires. Default is 19 mph."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:81
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:83
 msgid "Use Lane Turn Desires"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:82
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:84
 msgid ""
 "If you're driving at 20 mph (32 km/h) or below and have your blinker on, the "
 "car will plan a turn in that direction at the nearest drivable path. This "
@@ -1973,77 +1984,77 @@ msgid ""
 "turn direction."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:87
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:89
 msgid "Adjust Software Delay"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:88
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:90
 msgid ""
 "Adjust the software delay when Live Learning Steer Delay is toggled off. The "
 "default software delay value is 0.2"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:91
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:93
 msgid "Live Learning Steer Delay"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:98
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:100
 msgid ""
 "Enable this for the car to learn and adapt its steering response time. "
 "Disable to use a fixed steering response time. Keeping this on provides the "
 "stock openpilot experience."
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:101
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:103
 msgid "Live Steer Delay:"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:105
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:107
 msgid "Actuator Delay:"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:105
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:107
 msgid "Software Delay:"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:105
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:107
 msgid "Total Delay:"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:125
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:127
 msgid ""
 "This will delete ALL downloaded models from the cache except the currently "
 "active model. Are you sure?"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:126
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:128
 msgid "Clear Cache"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:167
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:171
 msgid "from cache"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:168
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:172
 msgid "ready"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:179
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:183
 msgid ""
 "Model download has started in the background. We suggest resetting "
 "calibration. Would you like to do that now?"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:206
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:242
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:210
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:246
 msgid "Default Model"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:222
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:226
 msgid "Select a Model"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/models.py:247
+#: selfdrive/ui/sunnypilot/layouts/settings/models.py:251
 msgid "Only available when vehicle is off, or always offroad mode is on"
 msgstr ""
 
@@ -2121,35 +2132,35 @@ msgstr ""
 msgid "Last checked {}"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:120
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:119
 msgid "Models"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:121
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:120
 msgid "Steering"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:122
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:121
 msgid "Cruise"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:123
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:122
 msgid "Visuals"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:124
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:123
 msgid "Display"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:125
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:124
 msgid "OSM"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:127
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:126
 msgid "Trips"
 msgstr ""
 
-#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:128
+#: selfdrive/ui/sunnypilot/layouts/settings/settings.py:127
 #: selfdrive/ui/sunnypilot/layouts/settings/vehicle/platform_selector.py:60
 msgid "Vehicle"
 msgstr ""
@@ -2739,7 +2750,7 @@ msgid "No vehicle selected"
 msgstr ""
 
 #: selfdrive/ui/sunnypilot/layouts/settings/vehicle/__init__.py:45
-#: selfdrive/ui/widgets/ssh_key.py:31
+#: selfdrive/ui/widgets/ssh_key.py:75
 msgid "REMOVE"
 msgstr ""
 
@@ -3009,11 +3020,11 @@ msgstr ""
 msgid "Near"
 msgstr ""
 
-#: selfdrive/ui/widgets/exp_mode_button.py:50
+#: selfdrive/ui/widgets/exp_mode_button.py:51
 msgid "EXPERIMENTAL MODE ON"
 msgstr ""
 
-#: selfdrive/ui/widgets/exp_mode_button.py:50
+#: selfdrive/ui/widgets/exp_mode_button.py:51
 msgid "CHILL MODE ON"
 msgstr ""
 
@@ -3033,7 +3044,7 @@ msgstr ""
 msgid "Reboot and Update"
 msgstr ""
 
-#: selfdrive/ui/widgets/offroad_alerts.py:320
+#: selfdrive/ui/widgets/offroad_alerts.py:321
 msgid "No release notes available."
 msgstr ""
 
@@ -3114,29 +3125,29 @@ msgid ""
 "Maximize your training data uploads to improve openpilot's driving models."
 msgstr ""
 
-#: selfdrive/ui/widgets/ssh_key.py:29
-msgid "LOADING"
+#: selfdrive/ui/widgets/setup.py:91
+msgid "Please connect to Wi-Fi to complete initial pairing"
 msgstr ""
 
-#: selfdrive/ui/widgets/ssh_key.py:30
-msgid "ADD"
-msgstr ""
-
-#: selfdrive/ui/widgets/ssh_key.py:89
-msgid "Enter your GitHub username"
-msgstr ""
-
-#: selfdrive/ui/widgets/ssh_key.py:115
-msgid "No SSH keys found"
-msgstr ""
-
-#: selfdrive/ui/widgets/ssh_key.py:124
+#: selfdrive/ui/widgets/ssh_key.py:65
 msgid "Request timed out"
 msgstr ""
 
-#: selfdrive/ui/widgets/ssh_key.py:127
+#: selfdrive/ui/widgets/ssh_key.py:67
 #, python-brace-format
 msgid "No SSH keys found for user '{}'"
+msgstr ""
+
+#: selfdrive/ui/widgets/ssh_key.py:73
+msgid "LOADING"
+msgstr ""
+
+#: selfdrive/ui/widgets/ssh_key.py:74
+msgid "ADD"
+msgstr ""
+
+#: selfdrive/ui/widgets/ssh_key.py:129
+msgid "Enter your GitHub username"
 msgstr ""
 
 #: sunnypilot/selfdrive/selfdrived/events.py:63
@@ -3168,7 +3179,7 @@ msgid "Brake Hold Active"
 msgstr ""
 
 #: sunnypilot/selfdrive/selfdrived/events.py:138
-#: sunnypilot/selfdrive/selfdrived/events_base.py:188
+#: sunnypilot/selfdrive/selfdrived/events_base.py:193
 msgid "openpilot Unavailable"
 msgstr ""
 
@@ -3209,12 +3220,12 @@ msgstr ""
 msgid "Enable Main Switch to Engage"
 msgstr ""
 
-#: sunnypilot/selfdrive/selfdrived/events_base.py:209
+#: sunnypilot/selfdrive/selfdrived/events_base.py:214
 msgid "openpilot will disengage"
 msgstr ""
 
-#: sunnypilot/selfdrive/selfdrived/events_base.py:236
-#: sunnypilot/selfdrive/selfdrived/events_base.py:239
+#: sunnypilot/selfdrive/selfdrived/events_base.py:242
+#: sunnypilot/selfdrive/selfdrived/events_base.py:245
 msgid "Always keep hands on wheel and eyes on road"
 msgstr ""
 
@@ -3270,117 +3281,117 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: system/ui/widgets/network.py:80 system/ui/widgets/network.py:101
+#: system/ui/widgets/network.py:80 system/ui/widgets/network.py:98
 msgid "Advanced"
 msgstr ""
 
-#: system/ui/widgets/network.py:126
+#: system/ui/widgets/network.py:123
 msgid "Enable Tethering"
 msgstr ""
 
-#: system/ui/widgets/network.py:129 system/ui/widgets/network.py:145
+#: system/ui/widgets/network.py:126 system/ui/widgets/network.py:142
 msgid "EDIT"
 msgstr ""
 
-#: system/ui/widgets/network.py:130
+#: system/ui/widgets/network.py:127
 msgid "Tethering Password"
 msgstr ""
 
-#: system/ui/widgets/network.py:135
+#: system/ui/widgets/network.py:132
 msgid "Enable Roaming"
 msgstr ""
 
-#: system/ui/widgets/network.py:140
+#: system/ui/widgets/network.py:137
 msgid "Cellular Metered"
 msgstr ""
 
-#: system/ui/widgets/network.py:141
+#: system/ui/widgets/network.py:138
 msgid "Prevent large data uploads when on a metered cellular connection"
 msgstr ""
 
-#: system/ui/widgets/network.py:145
+#: system/ui/widgets/network.py:142
 msgid "APN Setting"
 msgstr ""
 
-#: system/ui/widgets/network.py:148
+#: system/ui/widgets/network.py:145
 msgid "default"
 msgstr ""
 
-#: system/ui/widgets/network.py:148
+#: system/ui/widgets/network.py:145
 msgid "metered"
 msgstr ""
 
-#: system/ui/widgets/network.py:148
+#: system/ui/widgets/network.py:145
 msgid "unmetered"
 msgstr ""
 
-#: system/ui/widgets/network.py:150
+#: system/ui/widgets/network.py:147
 msgid "Wi-Fi Network Metered"
 msgstr ""
 
-#: system/ui/widgets/network.py:150
+#: system/ui/widgets/network.py:147
 msgid "Prevent large data uploads when on a metered Wi-Fi connection"
 msgstr ""
 
-#: system/ui/widgets/network.py:156
+#: system/ui/widgets/network.py:153
 msgid "IP Address"
 msgstr ""
 
-#: system/ui/widgets/network.py:161
+#: system/ui/widgets/network.py:158
 msgid "Hidden Network"
 msgstr ""
 
-#: system/ui/widgets/network.py:161
+#: system/ui/widgets/network.py:158
 msgid "CONNECT"
 msgstr ""
 
-#: system/ui/widgets/network.py:210
+#: system/ui/widgets/network.py:207
 msgid "Enter APN"
 msgstr ""
 
-#: system/ui/widgets/network.py:210
+#: system/ui/widgets/network.py:207
 msgid "leave blank for automatic configuration"
 msgstr ""
 
-#: system/ui/widgets/network.py:247 system/ui/widgets/network.py:327
+#: system/ui/widgets/network.py:244 system/ui/widgets/network.py:326
 msgid "Enter password"
 msgstr ""
 
-#: system/ui/widgets/network.py:247 system/ui/widgets/network.py:328
+#: system/ui/widgets/network.py:244 system/ui/widgets/network.py:327
 #, python-brace-format
 msgid "for \"{}\""
 msgstr ""
 
-#: system/ui/widgets/network.py:252
+#: system/ui/widgets/network.py:249
 msgid "Enter SSID"
 msgstr ""
 
-#: system/ui/widgets/network.py:266
+#: system/ui/widgets/network.py:263
 msgid "Enter new tethering password"
 msgstr ""
 
-#: system/ui/widgets/network.py:323
+#: system/ui/widgets/network.py:322
 msgid "Scanning Wi-Fi networks..."
 msgstr ""
 
-#: system/ui/widgets/network.py:327
+#: system/ui/widgets/network.py:326
 msgid "Wrong password"
 msgstr ""
 
-#: system/ui/widgets/network.py:333 system/ui/widgets/network.py:465
+#: system/ui/widgets/network.py:332 system/ui/widgets/network.py:464
 msgid "Forget"
 msgstr ""
 
-#: system/ui/widgets/network.py:334
+#: system/ui/widgets/network.py:333
 #, python-brace-format
 msgid "Forget Wi-Fi Network \"{}\"?"
 msgstr ""
 
-#: system/ui/widgets/network.py:383
+#: system/ui/widgets/network.py:382
 msgid "CONNECTING..."
 msgstr ""
 
-#: system/ui/widgets/network.py:387
+#: system/ui/widgets/network.py:386
 msgid "FORGETTING..."
 msgstr ""
 

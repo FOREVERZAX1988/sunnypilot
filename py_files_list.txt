@@ -173,6 +173,7 @@
 ./selfdrive/test/longitudinal_maneuvers/__init__.py
 ./selfdrive/test/process_replay/capture.py
 ./selfdrive/test/process_replay/compare_logs.py
+./selfdrive/test/process_replay/diff_report.py
 ./selfdrive/test/process_replay/migration.py
 ./selfdrive/test/process_replay/model_replay.py
 ./selfdrive/test/process_replay/process_replay.py
@@ -324,12 +325,10 @@
 ./selfdrive/ui/tests/test_soundd.py
 ./selfdrive/ui/tests/test_translations.py
 ./selfdrive/ui/tests/__init__.py
-./selfdrive/ui/translations/auto_translate.py
-./selfdrive/ui/translations/create_badges.py
 ./selfdrive/ui/translations/potools.py
+./selfdrive/ui/translations/update_translations.py
 ./selfdrive/ui/ui.py
 ./selfdrive/ui/ui_state.py
-./selfdrive/ui/update_translations.py
 ./selfdrive/ui/watch3.py
 ./selfdrive/ui/widgets/exp_mode_button.py
 ./selfdrive/ui/widgets/offroad_alerts.py
