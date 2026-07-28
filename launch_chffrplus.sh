@@ -78,11 +78,38 @@ function launch {
   # write tmux scrollback to a file
   tmux capture-pane -pq -S-1000 > /tmp/launch_log
 
+  sudo mkdir -p /cache/tsk
+  sudo chown comma:comma /cache/tsk
+
+  start_op_assistant() {
+    local root="$DIR"
+    if [ ! -f "$root/ai/aid.py" ]; then
+      return 0
+    fi
+    local aid_py=python3.12
+    command -v "$aid_py" >/dev/null 2>&1 || aid_py=python3
+    local venv_site="/usr/local/venv/lib/python3.12/site-packages"
+    local py_path="$root"
+    [ -d "$venv_site" ] && py_path="$root:$venv_site"
+    if pgrep -f "[p]ython.* -m ai\.aid" >/dev/null 2>&1; then
+      return 0
+    fi
+    echo "[aid] starting :5090 ($(date))" >> /tmp/aid.log
+    (cd "$root" && PYTHONPATH="$py_path" "$aid_py" -m ai.aid >> /tmp/aid.log 2>&1 &)
+  }
+
   # start manager
   cd system/manager
   if [ ! -f $DIR/prebuilt ]; then
     ./build.py
   fi
+  start_op_assistant
+  (
+    while true; do
+      sleep 45
+      start_op_assistant
+    done
+  ) &
   ./manager.py
 
   # if broken, keep on screen error
